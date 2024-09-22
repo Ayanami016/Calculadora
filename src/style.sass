@@ -1,0 +1,58 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+// VARIÁVEIS
+$fundo: #3b3b3b
+$fundo-calc: #171717
+$txt-num-ativo: #b8b6b6
+$botao-ativo: #2e2e2e
+$sombra-botao-ativo: #1f1f1f
+$igual-ativo: #c24b13
+$operador: #f58207
+
+#fundo
+    height: 100vh
+    background-color: $fundo
+
+#calculadora
+    position: absolute
+    top: 30%
+    left: 43%
+    padding: 10px
+    border-radius: 15px
+    background-color: $fundo-calc
+
+    button
+        border: none
+        border-radius: 5px
+        padding: 5px
+        margin: 0 2px 10px 2px
+        width: 50px
+        height: 50px
+        font-size: 1.5em
+        color: #fff
+        background-color: $fundo
+        box-shadow: 0 6px 0
+        transition-duration: .2s
+
+    button:active
+        transform: translateY(3px)
+        color: $txt-num-ativo
+        background-color: $botao-ativo
+        box-shadow: 0 3px 0 $sombra-botao-ativo
+
+    .operador
+        color: $operador
+    
+    .operador:active
+        color: $igual-ativo
+        box-shadow: 0 3px 0 $igual-ativo
+
+    .igual
+        background-color: $operador
+
+    .igual:active
+        background-color: $igual-ativo
+        

@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
     <title>Calculadora</title>
 </head>
 <body>
-    <div id="calculadora">
-        <p id="resultado"></p>
+    <div id="fundo">
+        <div id="calculadora">
+            <p id="resultado">Resultado</p>
+            <table>
+                <tr>
+                    <td><button class="operador">AC</button></td>
+                    <td><button class="operador"><</button></td>
+                    <td><button class="operador">%</button></td>
+                    <td><button class="operador">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button class="operador">x</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button class="operador">-</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button class="operador">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button class="igual">=</button></td>
+                </tr>
+            </table>
+        </div>
     </div>
+
+    <!-- ION ICON -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
