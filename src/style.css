@@ -11,11 +11,18 @@
 
 #calculadora {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 43%;
   padding: 10px;
   border-radius: 15px;
   background-color: #171717;
+}
+#calculadora #resultado {
+  margin: 10px;
+  font-size: 1.8em;
+  font-family: monospace;
+  text-align: right;
+  color: #fff;
 }
 #calculadora button {
   border: none;
